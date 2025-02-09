@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "Last run: $(date)" > last_run.txt
 
-      - name: Set up Git
+      - name: Configure Git (21f2001466@ds.study.iitm.ac.in)
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "21f2001466@ds.study.iitm.ac.in"
